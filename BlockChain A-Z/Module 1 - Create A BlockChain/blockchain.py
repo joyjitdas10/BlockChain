@@ -1,5 +1,5 @@
 # Module 1 - Create a Blockchain
- 
+
 # To be installed:
 # Flask==0.12.2: pip install Flask==0.12.2
 # Postman HTTP Client: https://www.getpostman.com/
@@ -37,7 +37,7 @@ class Blockchain:
             if hash_operation[:4] == '0000':
                 check_proof = True
             else:
-                new_proof += 1
+                new_proof += 1 
         return new_proof
     
     def hash(self, block):
